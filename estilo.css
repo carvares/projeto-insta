@@ -1,0 +1,209 @@
+.topo{
+    background-color: #ffffff;
+    height: 54px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid #dbdbdb;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index:10;
+
+}
+.traco-logo{
+    background-color: #dbdbdb;
+    width: 1px;
+    height: 22px;
+}
+.logo{
+    font-size: 20px;
+    height: 29px;
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    background-color: #fafafa;
+    color: #979797;
+    text-align: center;
+    width: 215px;
+    height:28px;
+    border: 1px solid #dbdbdb;
+}
+.icones{
+    font-size: 18px;
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.posts{
+    padding-top: 88px;
+     
+}
+.stories{
+    width: 614px;
+    height: 118px;
+    border: 1px solid #dbdbdb;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    overflow: hidden;
+
+}
+.seta{
+    text-shadow: 3px;
+    color: white;
+    position: absolute;
+    font-size:30px;
+    right: 3%;
+    bottom:40%;
+
+}
+.icone-stories{
+    
+    height: auto;
+    margin: 7px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+}
+.imgstories{
+    width: 66px;
+    height:66px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background: url(img/stories_background.jpg);
+    background-size: cover;
+}
+.icone-stories img{
+    width: 56px;
+    height:56px;
+    border-radius: 50px;
+    object-fit: cover;
+
+}
+.feed{
+    padding-top: 24px;
+    padding-bottom: 60px;
+
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.user-publi{
+    width: 100%;
+    height:61px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.oppubli{
+    font-size: 20px;
+    margin:18px;
+    color:#262626;
+}
+.user-publi img{
+    max-width:32px;
+    max-height:32px;
+    border-radius: 16px;
+    margin:15px;
+}
+.iconespubli{
+    font-size:20px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trio{
+    width: 80px;
+    display:flex;
+    justify-content:space-between;
+}
+.publi{
+    border: 1px solid #dbdbdb;
+    width: 614px;
+    height: 749px;
+    margin-bottom: 60px;
+}
+.publi img{
+    width: 100%;
+    height:612px;
+    object-fit: cover;
+}
+.curtidopubli{
+    margin-top: 13px;
+    margin-left: 17px;
+    display: flex;
+
+}
+video{
+    width: 614px;
+    height: 614px;
+    border: none;
+    object-fit: cover;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+.sidebar{
+    margin: 20px;
+    width: 240px;
+    padding-top:90px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.perfil{
+    display:flex;
+    align-items: center;
+    
+}
+.perfil img{
+    border-radius: 50px;
+    width:56px;
+    height: 56px;
+    object-fit: cover;
+    display: flex;
+    margin: 10px;
+}
+.principal{
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+
+}
+.sugestoes{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+b{
+    font-weight: bold;
+}
+p{
+    display: block;
+    font-size: 12px;
+}
+span{
+    color: #139EF2;
+}
