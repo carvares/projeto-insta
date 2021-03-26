@@ -53,13 +53,14 @@ input{
     margin-right: auto;
     display: flex;
     overflow: hidden;
+    position: relative;
 
 }
 .seta{
     text-shadow: 3px;
     color: white;
     position: absolute;
-    font-size:30px;
+    font-size:35px;
     right: 3%;
     bottom:40%;
 
@@ -137,7 +138,7 @@ input{
 .publi{
     border: 1px solid #dbdbdb;
     width: 614px;
-    height: 749px;
+    height: 810px;
     margin-bottom: 60px;
 }
 .publi img{
@@ -149,7 +150,14 @@ input{
     margin-top: 13px;
     margin-left: 17px;
     display: flex;
+    align-items: center;
 
+}
+.curtidopubli img{
+    width: 20px;
+    height: 20px;
+
+    margin-right: 5px;
 }
 video{
     width: 614px;
@@ -162,8 +170,8 @@ body{
 
 }
 .sidebar{
-    margin: 20px;
-    width: 240px;
+    margin: 20px 30px;
+    width: 293px;
     padding-top:90px;
     justify-content: center;
     align-items: center;
@@ -175,13 +183,24 @@ body{
     align-items: center;
     
 }
+.perfiltext{
+    font-size: 14px;
+
+}
+.perfil p{
+    color: #8e8e8e;
+}
+.perfil b{
+    font-weight: bold;
+}
+
 .perfil img{
     border-radius: 50px;
     width:56px;
     height: 56px;
+    margin-right: 17px;
     object-fit: cover;
     display: flex;
-    margin: 10px;
 }
 .principal{
     position: relative;
@@ -206,5 +225,60 @@ p{
 }
 span{
     color: #139EF2;
-    font-size: 40px;
+}
+.nomesug p:nth-child(2){
+    color: #8e8e8e;
+
+}
+.nomesug{
+    display: flex;
+
+}
+.nomesug img{
+    width: 32px;
+    height: 32px;
+    border-radius: 40px;
+    margin-right: 11px;
+    object-fit: cover;
+
+
+}
+.sobre{
+    color: #c7c7c7;
+    margin-top: 20px;
+}
+.sobre :first-child{
+    margin-top: 10px;
+}
+.topomenor{
+    display: none;
+}
+@media (max-width:935px){
+    .sidebar{
+        display: none;
+    }
+}
+@media (max-width:614px){
+    .sidebar{
+        display: none;
+    }
+    
+    .logo{
+        display: none;
+    }
+    .icones{
+        display: none;
+    }
+    .topo input{
+        display: none;
+    }
+    .traco-logo{
+        display: none;
+    }
+    .topomenor{
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
